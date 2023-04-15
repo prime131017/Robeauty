@@ -1,3 +1,8 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -40,7 +45,6 @@
 .call_number:hover{
     transition: 1s;
     color: rgb(213, 21, 31);
-
 }
 
 .call_text{
@@ -52,13 +56,12 @@
 .call_text:hover{
     transition: 1s;
     color: rgb(213, 21, 31);
-
 }
 
 .nav{
     display: flex;
     justify-content: center;
-    margin: 15px 0;
+    margin: 15px 0 30px 0;
 }
 
 .nav_item1 a{
@@ -92,3 +95,129 @@
     transition: 1s;
     color: rgb(213, 21, 31);
 }
+
+.shopping{
+    padding: 35px 0 0 70px;
+    min-height: 650px;
+    background-image: url("images/beach.jpg");
+    background-repeat: round;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.shopping p{
+    color: #e27812;
+    font-size: 34px;
+}
+
+.shopping_discount
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.shopping_discount a{
+    font-size: 15px;
+    color: #454545;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 25px 50px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.shopping_discount a:hover{
+    transition: 1s;
+    color: coral;
+    background-color: aquamarine;
+}
+
+.shopping_discount p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ee1e1e;
+    text-align: center;
+}
+
+.shimmer{
+    position: absolute;
+    top: 360px;
+    left: 365px;
+    z-index: 2;
+}
+
+.shimmer img{
+    height: 530px;
+    width: 530px;    
+}
+
+.girl{
+    position: absolute;
+    top: 135px;
+    right: 30px;
+}
+
+.girl img{
+  height: 789px;
+  width: 575px;
+  rotate: -6deg;
+}
+
+.hiding{
+    height: 130px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.application_result{
+    min-height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.application_result img{
+    height: 306px;
+    width: 622px;
+    border-radius: 17px;
+}
+
+.application_result p{
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.result_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.result_info_item{
+    font-size: 20px;
+    color: #181818;
+    font-weight: 700;
+    min-height: 144px;
+    width: 384px;
+    margin: 10px;
+    border: 1px solid #b5b7b9;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
